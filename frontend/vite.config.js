@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://chatterly-hp0h.onrender.com",
-        // target: "http://localhost:3000",
+        // target: "https://chatterly-hp0h.onrender.com",
+        target: "http://localhost:3000",
         secure: false,
       },
     },
